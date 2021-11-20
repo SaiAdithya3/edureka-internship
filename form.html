@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" name="Registrationform" autocomplete="on">
+        <label>Your Name *</label>
+        <input type="text" name="txtName" value="Adithya" required>
+        <br /><br />
+        <label>Your Email</label>
+        <input type="email" name="txtEmail" id="txtEmail" readonly>
+        <br /><br />
+        <label>Your Date of Birth</label>
+        <input type="date" name="txtDateOfBirth">
+        <br /><br />
+
+
+        <label>Your Gender</label>
+        <br />
+        <label for="radioMale">Male</label>
+        <input type="radio" name="radioGender" id="radioMale" checked="true">
+        <label>Female</label>
+        <input type="radio" name="radioGender" id="radioFemale">
+        <label>Don't want to mention</label>
+        <input type="radio" name="radioGender" id="radioDont">
+
+        <br /><br />
+        <label>Phone</label>
+        <input type="tel" name="telPhone" value="+91">
+
+        <br /><br />
+        <input type="checkbox" name="chkTerms" checked="true">
+        <label>Terms & Conditions</label>
+
+        <br /><br />
+        <label for="txtNotes">Notes</label>
+        <textarea name="txtNotes"></textarea>
+
+        <br />
+        <br />
+        <input type="submit" value="Save" />
+
+        <br/><br/><br/>
+        <hr>
+
+        <form action="" name="SigninForm" autocomplete="on">
+            <label>Your Name *</label>
+            <input type="text" name="txtName" value="John" required>
+            <br /><br />
+            <label>Your Email</label>
+            <input type="email" name="txtEmail" id="txtEmail" readonly>
+            <br /><br />
+            <label for="txtPassword">Password *</label>
+            <input type="password" name="txtPassword" required><br/>
+            <label for="txtPassword">Confirm Password *</label>
+            <input type="password" name="txtPassword" required>
+            <br /><br />
+            <label>Your Date of Birth</label>
+            <input type="date" name="txtDateOfBirth">
+
+
+    
+            <br /><br />
+            <label>Phone</label>
+            <input type="tel" name="telPhone" value="+91">
+    
+            <br /><br />
+            <input type="submit" value="Save" />
+</body>
+</html>
