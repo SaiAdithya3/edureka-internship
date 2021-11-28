@@ -17,6 +17,7 @@
 .food-menu-left{
     width: 30%;
     padding: 22px;
+    vertical-align: top;
 }
 
 .food-menu-right{
@@ -31,10 +32,26 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width:500px){
+/* mobile devices */
+@media only screen and (min-width:300px) and (max-width:600px){
     .food-header{
         font-size: 42px;
         color: red;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width:768px){
+    .food-header{
+        font-size: 40px;
+        color: green;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .food-header{
+        font-size: 36px;
+        color: #192f60;
     }
 }
 
